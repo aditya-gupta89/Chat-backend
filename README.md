@@ -3,6 +3,7 @@
 This is a basic chat server built using **Express.js** and **MongoDB**. It allows real-time communication between users, leveraging a REST API for interaction and MongoDB for data storage.
 
 ## Features
+
 - User authentication (JWT)
 - Real-time chat functionality
 - Message history stored in MongoDB
@@ -11,6 +12,7 @@ This is a basic chat server built using **Express.js** and **MongoDB**. It allow
 - Scalable architecture with separation of concerns
 
 ## Tech Stack
+
 - **Node.js** with **Express.js** for backend logic
 - **MongoDB** as the database
 - **JWT (JSON Web Token)** for secure authentication
@@ -20,7 +22,9 @@ This is a basic chat server built using **Express.js** and **MongoDB**. It allow
 ## Getting Started
 
 ### Prerequisites
+
 Make sure you have the following installed:
+
 - [Node.js](https://nodejs.org/) (version 14.x or later)
 - [MongoDB](https://www.mongodb.com/) (you can use a local instance or cloud-based MongoDB Atlas)
 
@@ -31,4 +35,8 @@ Make sure you have the following installed:
    ```bash
    git clone the repo
    cd express-chat-server
-   npm install 
+   npm install
+   ```
+
+Frontend Repository:- https://github.com/aditya-gupta89/chat-client
+Backend Repository:- https://github.com/aditya-gupta89/Chat-backend
